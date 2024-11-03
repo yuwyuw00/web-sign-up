@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.split {
+    display: flex;
+    gap: 10px;
+}
+
+.split .number-sec,
+.split .bday-sec {
+    flex: 1;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.gender-head{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.gender {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.gender p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.gender label {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.gender input[type="radio"] {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+
+.address-sec {
+    display: flex;
+    gap: 10px;
+}
+
+.address{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.address-sec input[type="text"],
+.address-sec input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.submit-sec button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6a1b9a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-sec button:hover {
+    background-color: #4a148c;
+}
